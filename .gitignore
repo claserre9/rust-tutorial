@@ -1,0 +1,20 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+Cargo.lock          # commit pour les binaires, ignorer pour les libs — on garde ignore par défaut ici
+
+# IDEs
+.idea/
+.vscode/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MkDocs
+site/
+docs/
+
+# Environnements
+.env
