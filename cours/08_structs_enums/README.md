@@ -251,4 +251,4 @@ struct RStruct { a: u8, b: u32 }   // peut être 5 bytes si Rust réordonne
 
 ---
 
-➡️ [Chapitre 8 — Lifetimes : durées de vie explicites](../08_lifetimes/README.md)
+➡️ [Chapitre 9 — Lifetimes : durées de vie explicites](../09_lifetimes/README.md)

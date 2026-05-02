@@ -22,26 +22,27 @@ Chaque niveau se termine par un **projet fil rouge** qui consolide les chapitres
 3. Flux de contrôle (`match` en profondeur, `if let`, `let else`)
 4. Ownership & borrowing — bases
 5. Structures de données + introduction aux itérateurs
-6. Fonctions, modules, `Result`/`Option` + `?` — **+ projet CLI todo**
+6. Gestion des erreurs (`Option`, `Result`, `?`, types personnalisés, `thiserror`, `anyhow`)
+7. Fonctions, modules, `Result`/`Option` + `?` — **+ projet CLI todo**
 
 ### Niveau 2 — Intermédiaire
 *Projet fil rouge : parseur de logs typé publié sur crates.io*
 
-7. Structs & enums
-8. Ownership avancée & lifetimes explicites
-9. Traits (`derive`, `dyn Trait` vs `impl Trait`, associated types)
-10. Generics & itérateurs avancés, closures (`Fn`/`FnMut`/`FnOnce`)
-11. Tests, doc-tests, benchmarks, `clippy`, `proptest` — **+ projet parseur**
+8. Structs & enums
+9. Ownership avancée & lifetimes explicites
+10. Traits (`derive`, `dyn Trait` vs `impl Trait`, associated types)
+11. Generics & itérateurs avancés, closures (`Fn`/`FnMut`/`FnOnce`)
+12. Tests, doc-tests, benchmarks, `clippy`, `proptest` — **+ projet parseur**
 
 ### Niveau 3 — Expert
 *Projet fil rouge : API axum async avec auth JWT, publiée*
 
-12. Concurrence synchrone (`Arc`/`Mutex`, atomics, `Send`/`Sync`)
-13. Async & tokio (`select!`, channels, cancellation safety)
-14. `unsafe`, smart pointers, FFI C ↔ Rust
-15. Macros (`macro_rules!`, proc macros intro), const generics, patterns avancés
-16. Dev web async avec axum (`sqlx`, JWT, tests tower)
-17. Packaging & distribution (workspace, crates.io, CI, MSRV) — **+ projet API**
+13. Concurrence synchrone (`Arc`/`Mutex`, atomics, `Send`/`Sync`)
+14. Async & tokio (`select!`, channels, cancellation safety)
+15. `unsafe`, smart pointers, FFI C ↔ Rust
+16. Macros (`macro_rules!`, proc macros intro), const generics, patterns avancés
+17. Dev web async avec axum (`sqlx`, JWT, tests tower)
+18. Packaging & distribution (workspace, crates.io, CI, MSRV) — **+ projet API**
 
 ### Annexes
 - **A.** Debug & tooling (`gdb`/`lldb`, `dbg!`, Miri, sanitizers, `tracing`)

@@ -1,5 +1,5 @@
 site_name: Tutoriel Rust
-site_description: Tutoriel Rust complet — 17 chapitres, 3 niveaux, 3 projets fil rouge
+site_description: Tutoriel Rust complet — 18 chapitres, 3 niveaux, 3 projets fil rouge
 site_author: Clifford Laserre
 docs_dir: docs
 
@@ -47,20 +47,21 @@ nav:
     - "Ch. 3 — Flux de contrôle": cours/03_flux_controle.md
     - "Ch. 4 — Ownership & borrowing": cours/04_ownership.md
     - "Ch. 5 — Structs, enums, collections": cours/05_structures_donnees.md
-    - "Ch. 6 — Fonctions, modules, CLI todo": cours/06_fonctions_modules.md
+    - "Ch. 6 — Gestion des erreurs": cours/06_gestion_erreurs.md
+    - "Ch. 7 — Fonctions, modules, CLI todo": cours/07_fonctions_modules.md
   - "Niveau 2 — Intermédiaire":
-    - "Ch. 7 — Structs avancés, newtype": cours/07_structs_enums.md
-    - "Ch. 8 — Lifetimes": cours/08_lifetimes.md
-    - "Ch. 9 — Traits": cours/09_traits.md
-    - "Ch. 10 — Génériques et itérateurs": cours/10_generics_iterators.md
-    - "Ch. 11 — Tests et parseur de logs": cours/11_tests_qualite.md
+    - "Ch. 8 — Structs avancés, newtype": cours/08_structs_enums.md
+    - "Ch. 9 — Lifetimes": cours/09_lifetimes.md
+    - "Ch. 10 — Traits": cours/10_traits.md
+    - "Ch. 11 — Génériques et itérateurs": cours/11_generics_iterators.md
+    - "Ch. 12 — Tests et parseur de logs": cours/12_tests_qualite.md
   - "Niveau 3 — Expert":
-    - "Ch. 12 — Concurrence sync": cours/12_concurrence_sync.md
-    - "Ch. 13 — Async Tokio": cours/13_async_tokio.md
-    - "Ch. 14 — Unsafe et FFI": cours/14_unsafe_ffi.md
-    - "Ch. 15 — Macros et patterns": cours/15_macros_patterns.md
-    - "Ch. 16 — Web avec Axum": cours/16_dev_web_axum.md
-    - "Ch. 17 — Packaging et CI": cours/17_packaging.md
+    - "Ch. 13 — Concurrence sync": cours/13_concurrence_sync.md
+    - "Ch. 14 — Async Tokio": cours/14_async_tokio.md
+    - "Ch. 15 — Unsafe et FFI": cours/15_unsafe_ffi.md
+    - "Ch. 16 — Macros et patterns": cours/16_macros_patterns.md
+    - "Ch. 17 — Web avec Axum": cours/17_dev_web_axum.md
+    - "Ch. 18 — Packaging et CI": cours/18_packaging.md
   - Annexes:
     - "A — Debug et outils": annexes/A_debug_tooling.md
     - "B — Regex et parsing": annexes/B_regex_parsing.md

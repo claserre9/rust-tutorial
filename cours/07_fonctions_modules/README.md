@@ -454,4 +454,4 @@ Sortie :
 
 ---
 
-➡️ [Chapitre 7 — Structs avancés, Display et newtype](../07_structs_enums/README.md)
+➡️ [Chapitre 8 — Structs avancés, Display et newtype](../08_structs_enums/README.md)

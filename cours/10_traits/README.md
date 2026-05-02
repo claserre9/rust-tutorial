@@ -258,4 +258,4 @@ let formes: Vec<Box<dyn Aire>> = vec![...]; // ✅
 
 ---
 
-➡️ [Chapitre 10 — Génériques et itérateurs avancés](../10_generics_iterators/README.md)
+➡️ [Chapitre 11 — Génériques et itérateurs avancés](../11_generics_iterators/README.md)

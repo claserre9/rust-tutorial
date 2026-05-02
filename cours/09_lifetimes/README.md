@@ -199,4 +199,4 @@ Le compilateur dit : "je ne sais pas si le retour vit aussi longtemps que s1 ou 
 
 ---
 
-➡️ [Chapitre 9 — Traits : polymorphisme et abstractions](../09_traits/README.md)
+➡️ [Chapitre 10 — Traits : polymorphisme et abstractions](../10_traits/README.md)

@@ -351,4 +351,4 @@ println!("{}", size_of::<Option<i32>>());   // 8 (4 pour i32 + 4 pour le tag)
 
 ---
 
-➡️ [Chapitre 6 — Fonctions, modules et `Result` — Projet CLI todo](../06_fonctions_modules/README.md)
+➡️ [Chapitre 6 — Gestion des erreurs](../06_gestion_erreurs/README.md)

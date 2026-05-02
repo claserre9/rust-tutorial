@@ -223,4 +223,4 @@ cargo +nightly miri test    # détecte les UB dans les tests
 
 ---
 
-➡️ [Chapitre 15 — Macros procédurales et patterns avancés](../15_macros_patterns/README.md)
+➡️ [Chapitre 16 — Macros procédurales et patterns avancés](../16_macros_patterns/README.md)
