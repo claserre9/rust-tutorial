@@ -427,4 +427,4 @@ fn test_ligne_invalide() {
 
 ---
 
-➡️ [Chapitre 13 — Concurrence sync : threads, Arc, Mutex](../13_concurrence_sync/README.md)
+➡️ [Chapitre 14 — Concurrence sync : threads, Arc, Mutex](../14_concurrence_sync/README.md)

@@ -272,4 +272,4 @@ for x in v.into_iter() { ... } // idem
 
 ---
 
-➡️ [Chapitre 12 — Tests, benchmarks et qualité](../12_tests_qualite/README.md)
+➡️ [Chapitre 13 — Tests, benchmarks et qualité](../13_tests_qualite/README.md)

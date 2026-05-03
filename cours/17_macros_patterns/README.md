@@ -260,4 +260,4 @@ Contrairement aux macros C (`#define`), les macros Rust `macro_rules!` sont hygi
 
 ---
 
-➡️ [Chapitre 17 — Web avec Axum — Projet API REST](../17_dev_web_axum/README.md)
+➡️ [Chapitre 18 — Web avec Axum — Projet API REST](../18_dev_web_axum/README.md)

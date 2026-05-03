@@ -30,19 +30,20 @@ Chaque niveau se termine par un **projet fil rouge** qui consolide les chapitres
 
 8. Structs & enums
 9. Ownership avancée & lifetimes explicites
-10. Traits (`derive`, `dyn Trait` vs `impl Trait`, associated types)
-11. Generics & itérateurs avancés, closures (`Fn`/`FnMut`/`FnOnce`)
-12. Tests, doc-tests, benchmarks, `clippy`, `proptest` — **+ projet parseur**
+10. Smart pointers (`Box`, `Rc`, `RefCell`, `Arc`, `Weak`, interior mutability)
+11. Traits (`derive`, `dyn Trait` vs `impl Trait`, associated types)
+12. Generics & itérateurs avancés, closures (`Fn`/`FnMut`/`FnOnce`)
+13. Tests, doc-tests, benchmarks, `clippy`, `proptest` — **+ projet parseur**
 
 ### Niveau 3 — Expert
 *Projet fil rouge : API axum async avec auth JWT, publiée*
 
-13. Concurrence synchrone (`Arc`/`Mutex`, atomics, `Send`/`Sync`)
-14. Async & tokio (`select!`, channels, cancellation safety)
-15. `unsafe`, smart pointers, FFI C ↔ Rust
-16. Macros (`macro_rules!`, proc macros intro), const generics, patterns avancés
-17. Dev web async avec axum (`sqlx`, JWT, tests tower)
-18. Packaging & distribution (workspace, crates.io, CI, MSRV) — **+ projet API**
+14. Concurrence synchrone (`Arc`/`Mutex`, atomics, `Send`/`Sync`)
+15. Async & tokio (`select!`, channels, cancellation safety)
+16. `unsafe`, FFI C ↔ Rust
+17. Macros (`macro_rules!`, proc macros intro), const generics, patterns avancés
+18. Dev web async avec axum (`sqlx`, JWT, tests tower)
+19. Packaging & distribution (workspace, crates.io, CI, MSRV) — **+ projet API**
 
 ### Annexes
 - **A.** Debug & tooling (`gdb`/`lldb`, `dbg!`, Miri, sanitizers, `tracing`)
