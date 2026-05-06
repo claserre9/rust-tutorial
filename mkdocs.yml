@@ -1,6 +1,11 @@
 site_name: Tutoriel Rust
 site_description: Tutoriel Rust complet — 19 chapitres, 3 niveaux, 3 projets fil rouge
-site_author: Clifford Laserre
+site_author: Clifford
+site_url: https://claserre9.github.io/rust-tutorial/
+repo_name: claserre9/rust-tutorial
+repo_url: https://github.com/claserre9/rust-tutorial
+copyright: MIT License — Clifford
+
 docs_dir: docs
 
 theme:
@@ -21,50 +26,116 @@ theme:
         name: Mode clair
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.footer
+    - search.suggest
     - search.highlight
     - content.code.copy
+    - content.code.annotate
+    - toc.follow
 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
+  - footnotes
   - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
 
 plugins:
   - search:
       lang: fr
 
 nav:
-  - Accueil: index.md
+  - Accueil: README.md
+
   - "Niveau 1 — Fondamentaux":
-    - "Ch. 1 — Écosystème": cours/01_ecosysteme.md
-    - "Ch. 2 — Primitifs et variables": cours/02_fondations.md
-    - "Ch. 3 — Flux de contrôle": cours/03_flux_controle.md
-    - "Ch. 4 — Ownership & borrowing": cours/04_ownership.md
-    - "Ch. 5 — Structs, enums, collections": cours/05_structures_donnees.md
-    - "Ch. 6 — Gestion des erreurs": cours/06_gestion_erreurs.md
-    - "Ch. 7 — Fonctions, modules, CLI todo": cours/07_fonctions_modules.md
+    - "1. Écosystème Rust": cours/01_ecosysteme/README.md
+    - "2. Primitifs & variables": cours/02_fondations/README.md
+    - "3. Flux de contrôle": cours/03_flux_controle/README.md
+    - "4. Ownership & borrowing": cours/04_ownership/README.md
+    - "5. Structs, enums, collections": cours/05_structures_donnees/README.md
+    - "6. Gestion des erreurs": cours/06_gestion_erreurs/README.md
+    - "7. Fonctions & modules": cours/07_fonctions_modules/README.md
+
   - "Niveau 2 — Intermédiaire":
-    - "Ch. 8 — Structs avancés, newtype": cours/08_structs_enums.md
-    - "Ch. 9 — Lifetimes": cours/09_lifetimes.md
-    - "Ch. 10 — Smart pointers": cours/10_smart_pointers.md
-    - "Ch. 11 — Traits": cours/11_traits.md
-    - "Ch. 12 — Génériques et itérateurs": cours/12_generics_iterators.md
-    - "Ch. 13 — Tests et parseur de logs": cours/13_tests_qualite.md
+    - "8. Structs avancés & newtype": cours/08_structs_enums/README.md
+    - "9. Lifetimes": cours/09_lifetimes/README.md
+    - "10. Smart pointers": cours/10_smart_pointers/README.md
+    - "11. Traits": cours/11_traits/README.md
+    - "12. Génériques & itérateurs": cours/12_generics_iterators/README.md
+    - "13. Tests & qualité": cours/13_tests_qualite/README.md
+
   - "Niveau 3 — Expert":
-    - "Ch. 14 — Concurrence sync": cours/14_concurrence_sync.md
-    - "Ch. 15 — Async Tokio": cours/15_async_tokio.md
-    - "Ch. 16 — Unsafe et FFI": cours/16_unsafe_ffi.md
-    - "Ch. 17 — Macros et patterns": cours/17_macros_patterns.md
-    - "Ch. 18 — Web avec Axum": cours/18_dev_web_axum.md
-    - "Ch. 19 — Packaging et CI": cours/19_packaging.md
+    - "14. Concurrence sync": cours/14_concurrence_sync/README.md
+    - "15. Async & Tokio": cours/15_async_tokio/README.md
+    - "16. Unsafe & FFI": cours/16_unsafe_ffi/README.md
+    - "17. Macros & patterns": cours/17_macros_patterns/README.md
+    - "18. Web avec Axum": cours/18_dev_web_axum/README.md
+    - "19. Packaging & CI": cours/19_packaging/README.md
+
+  - Exercices:
+    - "1. Écosystème": exercices/01_ecosysteme/README.md
+    - "2. Primitifs": exercices/02_fondations/README.md
+    - "3. Flux de contrôle": exercices/03_flux_controle/README.md
+    - "4. Ownership": exercices/04_ownership/README.md
+    - "5. Structures": exercices/05_structures_donnees/README.md
+    - "6. Erreurs": exercices/06_gestion_erreurs/README.md
+    - "7. Fonctions": exercices/07_fonctions_modules/README.md
+    - "8. Structs avancés": exercices/08_structs_enums/README.md
+    - "9. Lifetimes": exercices/09_lifetimes/README.md
+    - "10. Smart pointers": exercices/10_smart_pointers/README.md
+    - "11. Traits": exercices/11_traits/README.md
+    - "12. Génériques": exercices/12_generics_iterators/README.md
+    - "13. Tests": exercices/13_tests_qualite/README.md
+    - "14. Concurrence": exercices/14_concurrence_sync/README.md
+    - "15. Async": exercices/15_async_tokio/README.md
+    - "16. Unsafe": exercices/16_unsafe_ffi/README.md
+    - "17. Macros": exercices/17_macros_patterns/README.md
+    - "18. Web Axum": exercices/18_dev_web_axum/README.md
+    - "19. Packaging": exercices/19_packaging/README.md
+
+  - Solutions:
+    - "1. Écosystème": solutions/01_ecosysteme/README.md
+    - "2. Primitifs": solutions/02_fondations/README.md
+    - "3. Flux de contrôle": solutions/03_flux_controle/README.md
+    - "4. Ownership": solutions/04_ownership/README.md
+    - "5. Structures": solutions/05_structures_donnees/README.md
+    - "6. Erreurs": solutions/06_gestion_erreurs/README.md
+    - "7. Fonctions": solutions/07_fonctions_modules/README.md
+    - "8. Structs avancés": solutions/08_structs_enums/README.md
+    - "9. Lifetimes": solutions/09_lifetimes/README.md
+    - "10. Smart pointers": solutions/10_smart_pointers/README.md
+    - "11. Traits": solutions/11_traits/README.md
+    - "12. Génériques": solutions/12_generics_iterators/README.md
+    - "13. Tests": solutions/13_tests_qualite/README.md
+    - "14. Concurrence": solutions/14_concurrence_sync/README.md
+    - "15. Async": solutions/15_async_tokio/README.md
+    - "16. Unsafe": solutions/16_unsafe_ffi/README.md
+    - "17. Macros": solutions/16_macros_patterns/README.md
+    - "18. Web Axum": solutions/17_dev_web_axum/README.md
+    - "19. Packaging": solutions/17_packaging/README.md
+
   - Annexes:
-    - "A — Debug et outils": annexes/A_debug_tooling.md
-    - "B — Regex et parsing": annexes/B_regex_parsing.md
-    - "C — Bases de données": annexes/C_bases_donnees.md
-    - "D — WASM et embarqué": annexes/D_wasm_embarque.md
+    - "A. Debug & outils": annexes/A_debug_tooling.md
+    - "B. Regex & parsing": annexes/B_regex_parsing.md
+    - "C. Bases de données": annexes/C_bases_donnees.md
+    - "D. WASM & embarqué": annexes/D_wasm_embarque.md
